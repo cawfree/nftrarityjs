@@ -1,0 +1,25 @@
+{
+  "name": "nftrarityjs",
+  "version": "0.1.0",
+  "description": "⚡🧸⚡ A collection of tools for comparing the 1337ness of an NFT.",
+  "main": "dist",
+  "repository": "https://github.com/cawfree/nftrarityjs",
+  "author": "Alex Thomas (@cawfree) <hello@cawfree.com>",
+  "scripts": {
+    "build": "npx babel --presets=@babel/preset-env,@babel/preset-react src --out-dir dist",
+    "start": "yarn build && node dist"
+  },
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "axios": "^0.21.1",
+    "node-html-parser": "^3.3.4"
+  }
+}
